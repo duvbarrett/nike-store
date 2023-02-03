@@ -1,10 +1,27 @@
 import React from 'react'
 
-const Hero = () => {
+const Hero = ({heroapi}) => {
   return (
-    <main>
-      <Hero />
-    </main>
+    <div>
+      <div>
+      <div>
+        <h1>
+        </h1>
+        <h1></h1>
+        <button></button>
+        <div>
+          <div>
+          </div>
+          <div>
+            <img 
+              src=''
+              alt='hero-img/img' 
+              className='' />
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
   )
 }
 
