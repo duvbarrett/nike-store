@@ -20,10 +20,17 @@ const Hero = ({
             >
               {btntext}
             </button>
-            <div>
+            <div className="grid items-center gap-5 md:gap-3 absolute top-[33vh] lg:top-[27vh] left-[11%] xl:left-0 w-auto h-auto">
+              {videos?.map((val, i) => {
+                <Clips key={i} imgsrc={val.imgsrc} clip={val.clip} />;
+              })}
               <div></div>
               <div></div>
-              <img src={img} alt="hero-img/img" className="w-auto h-[45vh] lg:h-[35vh] md:h-[31] sm:h-[21vh] xsm:h-[19vh] transitions-theme-rotate-[25deg] hover:rotate-0 cursor-pointer object-fill " />
+              <img
+                src={img}
+                alt="hero-img/img"
+                className="w-auto h-[45vh] lg:h-[35vh] md:h-[31] sm:h-[21vh] xsm:h-[19vh] transitions-theme-rotate-[25deg] hover:rotate-0 cursor-pointer object-fill "
+              />
             </div>
           </div>
         </div>
