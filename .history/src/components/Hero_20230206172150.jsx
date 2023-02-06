@@ -1,11 +1,11 @@
 import React from "react";
 import Clips from "./utils/Clips";
 import SocialLink from "./utils/SocialLink";
-import {PlayIcon} from '@heroicons/react/24/solid'
 
 const Hero = ({
   heroapi: { title, subtitle, btntext, img, sociallinks, videos },
 }) => {
+  // console.log(heroapi)
   return (
     <>
       <div className="relative h-auto w-auto flex flex-col">

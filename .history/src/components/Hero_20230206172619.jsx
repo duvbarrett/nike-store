@@ -1,7 +1,7 @@
 import React from "react";
 import Clips from "./utils/Clips";
 import SocialLink from "./utils/SocialLink";
-import {PlayIcon} from '@heroicons/react/24/solid'
+import {PlayIcon} from './'
 
 const Hero = ({
   heroapi: { title, subtitle, btntext, img, sociallinks, videos },
