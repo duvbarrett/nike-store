@@ -8,7 +8,6 @@ import { useEffect, useState } from "react";
     }, []);
     return <div></div>;
   };
-
-  
+};
 
 export default Footer;
