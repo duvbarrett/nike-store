@@ -11,8 +11,6 @@
   "dependencies": {
     "@heroicons/react": "^2.0.14",
     "@reduxjs/toolkit": "^1.9.2",
-    "@splidejs/splide": "^4.1.4",
-    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.0",
@@ -27,3 +25,6 @@
     "vite": "^4.1.0"
   }
 }
+
+npm install @reduxjs/toolkit
+
