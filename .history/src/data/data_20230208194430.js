@@ -55,7 +55,7 @@ const popularsales = {
   items: [
     {
       id: "0p0x1",
-      title: "Nike Adapt BB 2.0",
+      title: "Nike Addapt BB 2.0",
       text: "MEN Running Shoes",
       rating: "4.9",
       btn: "Buy Now",
@@ -156,7 +156,7 @@ const toprateslaes = {
     },
     {
       id: "0M0x5",
-      title: "Nike Air BB Pro",
+      title: "Nike Adapt BB Pro",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -200,7 +200,7 @@ const toprateslaes = {
     },
     {
       id: "0M0x9",
-      title: "Nike Old Max XR",
+      title: "Nike Old Max-x",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -352,21 +352,24 @@ const footerAPI = {
       { link: "News" },
       { link: "Careers" },
       { link: "Investors" },
-      { link: "Purpose" },
+      { link: "Prupose" },
       { link: "Sustainability" },
     ],
     [
       { link: "Order Status" },
       { link: "Shipping & Delivery" },
       { link: "Payment Options" },
+      { link: "Gift Card Balance" },
       { link: "Contact Us" },
       { link: "FAQ" },
+      { link: "Blog" },
     ],
     [
       { link: "Gift Cards" },
       { link: "Promotions" },
       { link: "Find A Store" },
       { link: "Signup" },
+      { link: "Nike Jouneral" },
       { link: "Send Us Feeback" },
     ],
   ],

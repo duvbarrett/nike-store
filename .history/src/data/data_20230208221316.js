@@ -361,6 +361,7 @@ const footerAPI = {
       { link: "Payment Options" },
       { link: "Contact Us" },
       { link: "FAQ" },
+      // { link: "Blog" },
     ],
     [
       { link: "Gift Cards" },

@@ -31,6 +31,7 @@ const Footer = ({ footerAPI: { titles, links } }) => {
           <div className="mt-5 text-center">
             <p className="text-sm md:text-center">
               Copyright<> &copy; {Year} </>All rights reserved.
+              {/* <span className="font-semibold">{Year}</span> */}
             </p>
           </div>
         </div>
